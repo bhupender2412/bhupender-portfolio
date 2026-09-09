@@ -1,54 +1,55 @@
 # Bhupender Singh — Developer Portfolio
 
-A modern, responsive, and professional developer portfolio built to showcase my full-stack development skills, projects, technical experience, education, and contact information.
+A modern, responsive developer portfolio showcasing my **full-stack development skills, featured projects, technical experience, education, resume, and contact information**.
 
-The portfolio is built using **React, Vite, and Tailwind CSS** and includes real project demonstrations, GitHub repositories, a downloadable resume, and a functional contact form.
-
----
-
-## Live Portfolio
-
-**Live Demo:** Coming Soon
-
-> The portfolio will be deployed on Vercel.
+Built with **React, Vite, and Tailwind CSS**, the portfolio includes live project demonstrations, GitHub repositories, project screenshots, a downloadable resume, and a functional contact form.
 
 ---
 
-## About Me
+## 🌐 Live Portfolio
+
+**Portfolio:**
+https://bhupender-portfolio-sage.vercel.app/
+
+---
+
+## 👨‍💻 About Me
 
 I'm **Bhupender Singh**, a Computer Science & Engineering student focused on full-stack web development.
 
-I enjoy building practical web applications that combine responsive user interfaces with reliable backend systems. My primary development stack is **MERN**, and I have also worked with technologies such as TypeScript, Redis, BullMQ, Socket.IO, JWT, REST APIs, and deployment platforms like Vercel and Render.
+I enjoy building practical web applications that combine responsive user interfaces with reliable backend systems. My primary development stack is **MERN**, and I have also worked with technologies such as **TypeScript, Redis, BullMQ, Socket.IO, JWT, REST APIs, Vercel, and Render**.
 
-My goal is to continue improving as a software developer by building real-world applications and understanding how complete systems work from frontend to backend and deployment.
+I focus on learning through real projects, debugging problems, understanding application architecture, and building complete applications from frontend to backend and deployment.
 
 ---
 
-## Portfolio Features
+## ✨ Portfolio Features
 
-* Responsive modern developer UI
+* Modern and responsive developer interface
 * Mobile-friendly navigation
 * Professional Hero section
 * About Me section
-* Categorized Technical Skills
-* Featured Projects with screenshots
+* Categorized technical skills
+* Featured project showcase
+* Real project screenshots
 * Live project demo links
 * GitHub repository links
-* Experience and Training timeline
+* Experience and training timeline
 * Education section
 * Downloadable resume
 * Functional contact form
-* LinkedIn and GitHub integration
+* Form validation and submission states
+* GitHub and LinkedIn integration
 * Custom favicon
 * SEO metadata
 * Open Graph metadata
 * Keyboard accessibility
-* Responsive design
 * Reduced-motion accessibility support
+* Responsive design across mobile, tablet, and desktop
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -63,7 +64,7 @@ My goal is to continue improving as a software developer by building real-world 
 
 * Formspree
 
-### Tools
+### Development Tools
 
 * Git
 * GitHub
@@ -76,9 +77,7 @@ My goal is to continue improving as a software developer by building real-world 
 
 ---
 
-## Portfolio Sections
-
-The portfolio contains the following sections:
+## 📂 Portfolio Sections
 
 ```text
 Home
@@ -95,20 +94,20 @@ Home
 
 ---
 
-# Featured Projects
+# 🚀 Featured Projects
 
 ## 1. LearnFlow LMS
 
-A full-stack Learning Management System with separate functionality for students, instructors, and administrators.
+A full-stack **Learning Management System** with dedicated functionality for students, instructors, and administrators.
 
 ### Key Features
 
 * JWT authentication
 * Password reset
 * Student, instructor, and admin roles
-* Course creation
+* Course creation and management
 * Course approval workflow
-* Course enrollment
+* Student enrollment
 * Learning progress tracking
 * Quizzes
 * Reviews
@@ -121,17 +120,17 @@ A full-stack Learning Management System with separate functionality for students
 
 ### Links
 
-**Live Demo:**
+🌐 **Live Demo:**
 https://learnflow-lms-xi.vercel.app/
 
-**GitHub:**
+💻 **GitHub:**
 https://github.com/bhupender2412/learnflow-lms
 
 ---
 
 ## 2. LogPulse
 
-A real-time asynchronous webhook delivery and monitoring platform designed to process webhook events reliably using queues, workers, retries, and real-time execution tracking.
+A real-time asynchronous **webhook delivery and monitoring platform** designed to process webhook events reliably using queues, workers, retries, and real-time execution tracking.
 
 ### Key Features
 
@@ -152,17 +151,17 @@ A real-time asynchronous webhook delivery and monitoring platform designed to pr
 
 ### Links
 
-**Live Demo:**
+🌐 **Live Demo:**
 https://logpulse-3dgx.vercel.app/
 
-**GitHub:**
+💻 **GitHub:**
 https://github.com/bhupender2412/logpulse
 
 ---
 
 ## 3. LeetMetric
 
-A lightweight LeetCode profile analytics application that retrieves user statistics and presents problem-solving progress through a clean dashboard.
+A lightweight **LeetCode profile analytics application** that retrieves user statistics and presents problem-solving progress through a clean and responsive dashboard.
 
 ### Key Features
 
@@ -179,25 +178,34 @@ A lightweight LeetCode profile analytics application that retrieves user statist
 
 `HTML` `CSS` `JavaScript` `GraphQL API`
 
-### Live Demo
+### Link
 
+🌐 **Live Demo:**
 https://leetmetric-three.vercel.app/
 
 ---
 
-## Other Projects
+## 📌 Other Projects
 
 The portfolio also showcases additional applications including:
 
-* QueueIt — Virtual Queue Management System
-* Job Portal
-* Online Book Store
+* **QueueIt** — Virtual Queue Management System
+* **Job Portal** — MERN recruitment platform
+* **Online Book Store** — Full-stack MERN bookstore application
 
-These projects represent experience with authentication, CRUD operations, role-based access, API development, database integration, and responsive frontend development.
+These projects demonstrate experience with:
+
+* Authentication
+* Role-based access
+* CRUD operations
+* REST APIs
+* MongoDB integration
+* Responsive frontend development
+* Full-stack application development
 
 ---
 
-# Project Structure
+# 📁 Project Structure
 
 ```text
 bhupender-portfolio/
@@ -244,9 +252,9 @@ bhupender-portfolio/
 
 ---
 
-# Getting Started
+# ⚙️ Getting Started
 
-To run this project locally:
+To run the portfolio locally:
 
 ## 1. Clone the repository
 
@@ -272,7 +280,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL shown by Vite, usually:
+Open the local URL displayed by Vite, usually:
 
 ```text
 http://localhost:5173/
@@ -280,21 +288,21 @@ http://localhost:5173/
 
 ---
 
-# Production Build
+# 📦 Production Build
 
-Create a production build using:
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-The production files will be generated inside:
+The optimized production files will be generated inside:
 
 ```text
 dist/
 ```
 
-You can test the production build locally using:
+Test the production build locally with:
 
 ```bash
 npm run preview
@@ -302,16 +310,16 @@ npm run preview
 
 ---
 
-# Responsive Design
+# 📱 Responsive Design
 
-The portfolio is designed to work across:
+The portfolio is designed for:
 
 * Mobile devices
 * Tablets
 * Laptops
 * Desktop monitors
 
-The layout was tested at multiple screen widths including:
+The layout has been tested across screen widths including:
 
 ```text
 320px
@@ -324,11 +332,11 @@ The layout was tested at multiple screen widths including:
 
 ---
 
-# Contact Form
+# 📬 Contact Form
 
 The portfolio includes a functional contact form powered by **Formspree**.
 
-Visitors can send:
+Visitors can submit:
 
 * Name
 * Email
@@ -345,10 +353,20 @@ The form includes:
 
 ---
 
-# Contact
+# 📄 Resume
+
+My latest resume is available directly from the portfolio.
+
+🌐 **Portfolio:**
+https://bhupender-portfolio-sage.vercel.app/
+
+Use the **View Resume** button in the navigation or Hero section to open it.
+
+---
+
+# 📫 Contact
 
 **Bhupender Singh**
-
 Full Stack Developer
 
 **Email:**
@@ -360,13 +378,16 @@ https://github.com/bhupender2412
 **LinkedIn:**
 https://www.linkedin.com/in/bhupender-singh-01b80a370
 
+**Portfolio:**
+https://bhupender-portfolio-sage.vercel.app/
+
 **Location:**
 Himachal Pradesh, India
 
 ---
 
-## Author
+## 👤 Author
 
-Developed by **Bhupender Singh**
+Developed by **Bhupender Singh**.
 
-If you found this portfolio interesting, feel free to explore my projects and connect with me on GitHub or LinkedIn.
+If you found this portfolio interesting, feel free to explore my projects, visit the live portfolio, or connect with me through GitHub and LinkedIn.
