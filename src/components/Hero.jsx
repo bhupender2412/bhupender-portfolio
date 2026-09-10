@@ -1,4 +1,13 @@
 function Hero() {
+  const technologies = [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "TypeScript",
+  ];
+
   return (
     <section
       id="home"
@@ -8,17 +17,19 @@ function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-32 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl"></div>
 
       <div className="relative mx-auto grid w-full max-w-7xl items-center gap-14 py-16 lg:grid-cols-2">
-        {/* Left side */}
+        {/* Left content */}
         <div>
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 px-4 py-2">
-            <span className="h-2 w-2 rounded-full bg-cyan-400"></span>
+            <span className="h-2 w-2 rounded-full bg-green-400"></span>
 
             <span className="text-sm font-medium text-cyan-300">
               Open to Software Development Opportunities
             </span>
           </div>
 
-          <p className="mb-3 text-lg font-medium text-slate-400">Hi, I'm</p>
+          <p className="mb-3 text-lg font-medium text-slate-400">
+            Hi, I&apos;m
+          </p>
 
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             Bhupender
@@ -30,13 +41,13 @@ function Hero() {
           </h2>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-            Computer Science graduate focused on building practical, responsive
-            and scalable web applications using modern JavaScript technologies,
-            with hands-on experience across frontend, backend, databases and
-            real-time systems.
+            Computer Science & Engineering graduate focused on building
+            practical, responsive and scalable web applications using modern
+            JavaScript technologies, with hands-on experience across frontend,
+            backend, databases, APIs and real-time systems.
           </p>
 
-          {/* Buttons */}
+          {/* Action buttons */}
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#projects"
@@ -44,6 +55,7 @@ function Hero() {
             >
               View Projects
             </a>
+
             <a
               href="/resume.pdf"
               target="_blank"
@@ -72,21 +84,14 @@ function Hero() {
             </a>
           </div>
 
-          {/* Tech stack */}
+          {/* Technology stack */}
           <div className="mt-12">
             <p className="mb-4 text-sm font-medium uppercase tracking-widest text-slate-500">
               Technologies I work with
             </p>
 
             <div className="flex flex-wrap gap-3">
-              {[
-                "JavaScript",
-                "React",
-                "Node.js",
-                "Express",
-                "MongoDB",
-                "TypeScript",
-              ].map((tech) => (
+              {technologies.map((tech) => (
                 <span
                   key={tech}
                   className="rounded-md border border-slate-800 bg-slate-900 px-3 py-2 text-sm text-slate-300"
@@ -98,7 +103,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* Right side */}
+        {/* Right content */}
         <div className="relative mx-auto w-full max-w-lg">
           <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-500/20 to-blue-500/20 blur-xl"></div>
 
@@ -109,10 +114,12 @@ function Hero() {
               <span className="h-3 w-3 rounded-full bg-yellow-400"></span>
               <span className="h-3 w-3 rounded-full bg-green-400"></span>
 
-              <span className="ml-3 text-xs text-slate-500">developer.js</span>
+              <span className="ml-3 text-xs text-slate-500">
+                developer.js
+              </span>
             </div>
 
-            {/* Fake code */}
+            {/* Developer code card */}
             <div className="space-y-3 font-mono text-sm leading-7 sm:text-base">
               <p>
                 <span className="text-purple-400">const</span>{" "}
@@ -123,18 +130,32 @@ function Hero() {
 
               <p className="pl-6">
                 <span className="text-blue-300">name:</span>{" "}
-                <span className="text-green-300">"Bhupender Singh"</span>,
+                <span className="text-green-300">
+                  &quot;Bhupender Singh&quot;
+                </span>
+                ,
               </p>
 
               <p className="pl-6">
                 <span className="text-blue-300">role:</span>{" "}
-                <span className="text-green-300">"Full Stack Developer"</span>,
+                <span className="text-green-300">
+                  &quot;Full Stack Developer&quot;
+                </span>
+                ,
+              </p>
+
+              <p className="pl-6">
+                <span className="text-blue-300">education:</span>{" "}
+                <span className="text-green-300">
+                  &quot;B.Tech CSE Graduate&quot;
+                </span>
+                ,
               </p>
 
               <p className="pl-6">
                 <span className="text-blue-300">stack:</span>{" "}
                 <span className="text-slate-300">
-                  ["React", "Node.js", "MongoDB"]
+                  [&quot;React&quot;, &quot;Node.js&quot;, &quot;MongoDB&quot;]
                 </span>
                 ,
               </p>
@@ -142,7 +163,7 @@ function Hero() {
               <p className="pl-6">
                 <span className="text-blue-300">focus:</span>{" "}
                 <span className="text-green-300">
-                  "Building useful products"
+                  &quot;Building useful products&quot;
                 </span>
                 ,
               </p>
@@ -158,17 +179,17 @@ function Hero() {
             </div>
 
             {/* Bottom status */}
-            <div className="mt-8 flex items-center justify-between rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3">
+            <div className="mt-8 flex flex-col gap-3 rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex items-center gap-2">
                 <span className="h-2 w-2 rounded-full bg-green-400"></span>
 
                 <span className="text-xs text-slate-400">
-                  Currently building
+                  Currently focused on
                 </span>
               </div>
 
               <span className="text-xs font-medium text-cyan-400">
-                Full Stack Projects
+                Full Stack & Backend Development
               </span>
             </div>
           </div>

@@ -3,25 +3,22 @@ function About() {
     {
       title: "Full Stack Development",
       description:
-        "Building complete web applications with React, Node.js, Express and MongoDB.",
+        "Building complete web applications using React, Node.js, Express and MongoDB.",
     },
     {
       title: "Backend & APIs",
       description:
-        "Working with REST APIs, authentication, databases and real-time application features.",
+        "Working with REST APIs, authentication, databases, queues and real-time application features.",
     },
     {
       title: "Problem Solving",
       description:
-        "Focused on understanding problems clearly and turning them into practical software solutions.",
+        "Turning technical problems into practical software solutions through debugging and hands-on development.",
     },
   ];
 
   return (
-    <section
-      id="about"
-      className="bg-slate-900 px-6 py-24"
-    >
+    <section id="about" className="bg-slate-900 px-6 py-24">
       <div className="mx-auto max-w-7xl">
         {/* Section heading */}
         <div className="mb-14 max-w-3xl">
@@ -30,32 +27,45 @@ function About() {
           </p>
 
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            Building practical web applications and continuously improving
-            as a developer.
+            Building practical applications and growing through real
+            development experience.
           </h2>
+
+          <p className="mt-5 text-base leading-8 text-slate-400 sm:text-lg">
+            I enjoy working across the complete application lifecycle, from
+            designing responsive interfaces to building APIs, integrating
+            databases and deploying applications to production.
+          </p>
         </div>
 
         <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">
-          {/* Left content */}
+          {/* Main content */}
           <div>
             <p className="text-base leading-8 text-slate-400 sm:text-lg">
-              I'm Bhupender Singh, a Computer Science & Engineering graduate
-              with a strong interest in full stack web development. I enjoy
-              building applications that combine clean user interfaces with
-              reliable backend systems.
+              I&apos;m Bhupender Singh, a Computer Science & Engineering
+              graduate with a strong interest in full stack and backend
+              development. I enjoy building applications that combine clean
+              user interfaces with reliable backend systems.
             </p>
 
             <p className="mt-6 text-base leading-8 text-slate-400 sm:text-lg">
               My primary development stack is MERN, and I have worked on
-              projects involving authentication, role-based access, real-time
-              communication, course management, job platforms, logging systems,
-              queues and developer-focused tools.
+              projects involving JWT authentication, role-based access,
+              REST APIs, MongoDB, real-time communication, background queues,
+              Redis, course management, analytics and developer-focused tools.
             </p>
 
             <p className="mt-6 text-base leading-8 text-slate-400 sm:text-lg">
-              I focus on learning by building real projects, debugging problems
-              and understanding how different parts of an application work
-              together from frontend to deployment.
+              Projects such as LearnFlow, LogPulse and LeetMetric have helped me
+              strengthen my understanding of frontend development, backend
+              architecture, API integration, databases, deployment and
+              production debugging.
+            </p>
+
+            <p className="mt-6 text-base leading-8 text-slate-400 sm:text-lg">
+              I&apos;m currently looking for software development opportunities
+              where I can contribute to real products, improve my engineering
+              skills and continue growing as a developer.
             </p>
 
             {/* Highlights */}
@@ -63,7 +73,7 @@ function About() {
               {highlights.map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-2xl border border-slate-800 bg-slate-950/60 p-5"
+                  className="rounded-2xl border border-slate-800 bg-slate-950/60 p-5 transition hover:border-cyan-400/30"
                 >
                   <h3 className="mb-3 font-semibold text-white">
                     {item.title}
@@ -77,8 +87,8 @@ function About() {
             </div>
           </div>
 
-          {/* Right side */}
-          <div className="rounded-3xl border border-slate-800 bg-slate-950 p-7">
+          {/* Quick overview */}
+          <div className="h-fit rounded-3xl border border-slate-800 bg-slate-950 p-7">
             <h3 className="mb-6 text-xl font-semibold text-white">
               Quick Overview
             </h3>
@@ -90,7 +100,7 @@ function About() {
                 </p>
 
                 <p className="font-medium text-slate-200">
-                  Full Stack Web Development
+                  Full Stack & Backend Development
                 </p>
               </div>
 
@@ -106,21 +116,25 @@ function About() {
 
               <div className="border-b border-slate-800 pb-5">
                 <p className="mb-1 text-sm text-slate-500">
-                  Degree
+                  Education
                 </p>
 
                 <p className="font-medium text-slate-200">
                   B.Tech in Computer Science & Engineering
                 </p>
+
+                <p className="mt-1 text-sm text-slate-500">
+                  Completed · CGPA 8.01
+                </p>
               </div>
 
               <div className="border-b border-slate-800 pb-5">
                 <p className="mb-1 text-sm text-slate-500">
-                  Experience
+                  Development Experience
                 </p>
 
                 <p className="font-medium text-slate-200">
-                  Projects, internships & hands-on development
+                  Projects, internships & technical training
                 </p>
               </div>
 
