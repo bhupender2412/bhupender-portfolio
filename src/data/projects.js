@@ -106,18 +106,19 @@ export const projects = [
   {
     id: 4,
     title: "QueueIt",
-    category: "Full Stack Application",
-    image: "",
+    category: "Real-Time Full Stack Application",
+    image: "/projects/queueit.png",
 
     description:
-      "A virtual queue management system that allows users to join queues digitally and receive live status updates while administrators manage queue operations.",
+      "A full-stack virtual queue management platform that allows users to join service queues remotely, receive digital tokens, track their live position and estimated wait time, and validate turns using QR codes.",
 
     features: [
-      "Virtual queue joining",
-      "Token generation",
-      "Live queue updates",
-      "Role-based access",
-      "Admin queue management",
+      "Remote queue joining",
+      "Digital token generation",
+      "Live position & ETA updates",
+      "Real-time Socket.IO updates",
+      "QR-based token validation",
+      "Admin & Super Admin workflows",
     ],
 
     technologies: [
@@ -125,12 +126,15 @@ export const projects = [
       "Node.js",
       "Express",
       "MongoDB",
+      "Socket.IO",
+      "JWT",
       "Tailwind CSS",
     ],
 
-    github: "",
-    demo: "",
-    featured: false,
+    github: "https://github.com/bhupender2412/queueit",
+    demo: "https://queueit-alpha.vercel.app/",
+
+    featured: true,
   },
 
   {
