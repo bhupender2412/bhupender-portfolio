@@ -168,32 +168,35 @@ export const projects = [
   },
 
   {
-    id: 6,
-    title: "Book Store",
-    category: "MERN Application",
-    image: "",
+  id: 6,
+  title: "BookHaven",
+  category: "Full Stack Bookstore",
+  image: "/projects/bookhaven.png",
 
-    description:
-      "A full-stack bookstore application featuring authentication, protected routes, book management and an administrator dashboard.",
+  description:
+    "A full-stack bookstore application where users can browse books, view book details, manage their cart and access protected features, while administrators manage the book catalog and users.",
 
-    features: [
-      "User authentication",
-      "Role-based access",
-      "Book CRUD operations",
-      "Admin dashboard",
-      "Dark and light themes",
-    ],
+  features: [
+    "User authentication",
+    "Book catalog & details",
+    "Shopping cart",
+    "Protected routes",
+    "Admin dashboard",
+    "Book CRUD management",
+  ],
 
-    technologies: [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Bootstrap",
-    ],
+  technologies: [
+    "React",
+    "Redux",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+  ],
 
-    github: "",
-    demo: "",
-    featured: false,
-  },
+  github: "https://github.com/bhupender2412/bookhaven",
+  demo: "https://bookhaven-eight.vercel.app/",
+
+  featured: true,
+},
 ];
