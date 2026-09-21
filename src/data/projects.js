@@ -1,34 +1,38 @@
 export const projects = [
   {
     id: 1,
-    title: "LearnFlow LMS",
-    category: "Full Stack Application",
-    image: "/projects/learnflow.png",
+    title: "JobPortal",
+    category: "Full Stack Recruitment Platform",
+    image: "/projects/jobportal.png",
 
     description:
-      "A full-stack Learning Management System with dedicated experiences for students, instructors and administrators, covering the complete learning workflow from course creation to completion.",
+      "A production-ready multi-role recruitment platform with dedicated workflows for job seekers, recruiters and administrators, covering job discovery, applications, hiring pipelines and platform moderation.",
 
     features: [
-      "JWT authentication & password reset",
-      "Student, instructor & admin roles",
-      "Course creation and approval workflow",
-      "Enrollment & progress tracking",
-      "Quizzes, reviews & certificates",
-      "Cloudinary image uploads",
+      "Job Seeker, Recruiter & Admin roles",
+      "JWT authentication & role-based access control",
+      "Job search, filtering, saving & applications",
+      "Cloudinary resume uploads",
+      "Recruiter hiring pipeline & applicant management",
+      "Company verification & management",
+      "Admin user, company & job moderation",
+      "Application status history & tracking",
     ],
 
     technologies: [
       "React",
-      "Vite",
+      "Redux Toolkit",
+      "Tailwind CSS",
       "Node.js",
       "Express",
       "MongoDB",
       "JWT",
       "Cloudinary",
+      "Zod",
     ],
 
-    github: "https://github.com/bhupender2412/learnflow-lms",
-    demo: "https://learnflow-lms-xi.vercel.app/",
+    github: "https://github.com/bhupender2412/job-portal",
+    demo: "https://job-portal-topaz-two.vercel.app/",
 
     featured: true,
   },
@@ -70,35 +74,34 @@ export const projects = [
 
   {
     id: 3,
-    title: "LeetMetric",
-    category: "JavaScript Application",
-    image: "/projects/leetmetric.png",
+    title: "LearnFlow LMS",
+    category: "Full Stack Application",
+    image: "/projects/learnflow.png",
 
     description:
-      "A lightweight LeetCode profile analytics application that retrieves user statistics and presents problem-solving progress through a clean and responsive dashboard.",
+      "A full-stack Learning Management System with dedicated experiences for students, instructors and administrators, covering the complete learning workflow from course creation to completion.",
 
     features: [
-      "LeetCode username search",
-      "Difficulty-wise progress",
-      "Ranking information",
-      "Submission statistics",
-      "Acceptance rate",
-      "Recent search history",
-      "Dark and light themes",
+      "JWT authentication & password reset",
+      "Student, instructor & admin roles",
+      "Course creation and approval workflow",
+      "Enrollment & progress tracking",
+      "Quizzes, reviews & certificates",
+      "Cloudinary image uploads",
     ],
 
     technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "GraphQL API",
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Cloudinary",
     ],
 
-    // Add the GitHub link after the complete source code
-    // has been pushed to the repository.
-    github: "",
-
-    demo: "https://leetmetric-three.vercel.app/",
+    github: "https://github.com/bhupender2412/learnflow-lms",
+    demo: "https://learnflow-lms-xi.vercel.app/",
 
     featured: true,
   },
@@ -139,64 +142,67 @@ export const projects = [
 
   {
     id: 5,
-    title: "Job Portal",
-    category: "MERN Application",
-    image: "",
+    title: "BookHaven",
+    category: "Full Stack Bookstore",
+    image: "/projects/bookhaven.png",
 
     description:
-      "A recruitment platform connecting job seekers and recruiters through job listings, applications, authentication and role-based functionality.",
+      "A full-stack bookstore application where users can browse books, view book details, manage their cart and access protected features, while administrators manage the book catalog and users.",
 
     features: [
-      "Job seeker & recruiter accounts",
-      "Job posting",
-      "Job applications",
-      "Search and filtering",
-      "Authentication",
+      "User authentication",
+      "Book catalog & details",
+      "Shopping cart",
+      "Protected routes",
+      "Admin dashboard",
+      "Book CRUD management",
     ],
 
     technologies: [
       "React",
+      "Redux",
       "Node.js",
       "Express",
       "MongoDB",
       "JWT",
     ],
 
-    github: "",
-    demo: "",
-    featured: false,
+    github: "https://github.com/bhupender2412/bookhaven",
+    demo: "https://bookhaven-eight.vercel.app/",
+
+    featured: true,
   },
 
   {
-  id: 6,
-  title: "BookHaven",
-  category: "Full Stack Bookstore",
-  image: "/projects/bookhaven.png",
+    id: 6,
+    title: "LeetMetric",
+    category: "JavaScript Application",
+    image: "/projects/leetmetric.png",
 
-  description:
-    "A full-stack bookstore application where users can browse books, view book details, manage their cart and access protected features, while administrators manage the book catalog and users.",
+    description:
+      "A lightweight LeetCode profile analytics application that retrieves user statistics and presents problem-solving progress through a clean and responsive dashboard.",
 
-  features: [
-    "User authentication",
-    "Book catalog & details",
-    "Shopping cart",
-    "Protected routes",
-    "Admin dashboard",
-    "Book CRUD management",
-  ],
+    features: [
+      "LeetCode username search",
+      "Difficulty-wise progress",
+      "Ranking information",
+      "Submission statistics",
+      "Acceptance rate",
+      "Recent search history",
+      "Dark and light themes",
+    ],
 
-  technologies: [
-    "React",
-    "Redux",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "JWT",
-  ],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GraphQL API",
+      "Vercel Serverless Functions",
+    ],
 
-  github: "https://github.com/bhupender2412/bookhaven",
-  demo: "https://bookhaven-eight.vercel.app/",
+    github: "https://github.com/bhupender2412/leetmetric",
+    demo: "https://leetmetric-three.vercel.app/",
 
-  featured: true,
-},
+    featured: true,
+  },
 ];
